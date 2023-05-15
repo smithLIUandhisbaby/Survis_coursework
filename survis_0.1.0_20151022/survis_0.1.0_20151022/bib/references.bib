@@ -1,0 +1,186 @@
+@inproceedings{10.5555/3295222.3295349,
+  author = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, \L{}ukasz and Polosukhin, Illia},
+  title = {Attention is All You Need},
+  year = {2017},
+  isbn = {9781510860964},
+  publisher = {Curran Associates Inc.},
+  address = {Red Hook, NY, USA},
+  abstract = {The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.0 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature.},
+  booktitle = {Proceedings of the 31st International Conference on Neural Information Processing Systems},
+  pages = {6000–6010},
+  numpages = {11},
+  location = {Long Beach, California, USA},
+  series = {NIPS'17},
+  doi = {https://doi.org/10.48550/arXiv.1706.03762}
+}
+
+@inbook{10.5555/3454287.3454804,
+  author = {Yang, Zhilin and Dai, Zihang and Yang, Yiming and Carbonell, Jaime and Salakhutdinov, Ruslan and Le, Quoc V.},
+  title = {XLNet: Generalized Autoregressive Pretraining for Language Understanding},
+  year = {2019},
+  publisher = {Curran Associates Inc.},
+  address = {Red Hook, NY, USA},
+  abstract = {With the capability of modeling bidirectional contexts, denoising autoencoding based pretraining like BERT achieves better performance than pretraining approaches based on autoregressive language modeling. However, relying on corrupting the input with masks, BERT neglects dependency between the masked positions and suffers from a pretrain-finetune discrepancy. In light of these pros and cons, we propose XLNet, a generalized autoregressive pretraining method that (1) enables learning bidirectional contexts by maximizing the expected likelihood over all permutations of the factorization order and (2) overcomes the limitations of BERT thanks to its autoregressive formulation. Furthermore, XLNet integrates ideas from Transformer-XL, the state-of-the-art autoregressive model, into pretraining. Empirically, under comparable experiment setting, XLNet outperforms BERT on 20 tasks, often by a large margin, including question answering, natural language inference, sentiment analysis, and document ranking.},
+  booktitle = {Proceedings of the 33rd International Conference on Neural Information Processing Systems},
+  articleno = {517},
+  numpages = {11},
+  doi = {10.1109/ICML.2019.541},
+  series = {}
+}
+
+@article{Beck2016Visual,
+  abstract = {Bibiographic data such as collections of scientific articles and citation networks have been studied extensively in information visualization and visual analytics research. Powerful systems have been built to support various types of bibliographic analysis, but they require some training and cannot be used to disseminate the insights gained. In contrast, we focused on developing a more accessible visual analytics system, called SurVis, that is ready to disseminate a carefully surveyed literature collection. The authors of a survey may use our Web-based system to structure and analyze their literature database. Later, readers of the survey can obtain an overview, quickly retrieve specific publications, and reproduce or extend the original bibliographic analysis. Our system employs a set of selectors that enable users to filter and browse the literature collection as well as to control interactive visualizations. The versatile selector concept includes selectors for textual search, filtering by keywords and meta-information, selection and clustering of similar publications, and following citation links. Agreement to the selector is represented by word-sized sparkline visualizations seamlessly integrated into the user interface. Based on an analysis of the analytical reasoning process, we derived requirements for the system. We developed the system in a formative way involving other researchers writing literature surveys. A questionnaire study with 14 visual analytics experts confirms that SurVis meets the initially formulated requirements.},
+  author = {Beck, Fabian and Koch, Sebastian and Weiskopf, Daniel},
+  doi = {10.1109/TVCG.2015.2467757},
+  journal = {IEEE Transactions on Visualization and Computer Graphics},
+  keywords = {type:system, visual_analytics, sparklines, information_retrieval, clustering, literature_browser},
+  number = {01},
+  publisher = {IEEE},
+  series = {TVCG},
+  title = {Visual Analysis and Dissemination of Scientific Literature Collections with {SurVis}},
+  url = {http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/vast15-survis.pdf},
+  volume = {22},
+  year = {2016}
+}
+
+@article{DBLP:journals/corr/abs-1810-04805,
+  author = {Jacob Devlin and
+                  Ming{-}Wei Chang and
+                  Kenton Lee and
+                  Kristina Toutanova},
+  title = {{BERT:} Pre-training of Deep Bidirectional Transformers for Language
+                  Understanding},
+  journal = {CoRR},
+  volume = {abs/1810.04805},
+  year = {2018},
+  url = {http://arxiv.org/abs/1810.04805},
+  eprinttype = {arXiv},
+  eprint = {1810.04805},
+  timestamp = {Tue, 30 Oct 2018 20:39:56 +0100},
+  biburl = {https://dblp.org/rec/journals/corr/abs-1810-04805.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  abstract = {"We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models (Peters et al., 2018a; Radford et al., 2018), BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5 (7.7 point absolute improvement), MultiNLI accuracy to 86.7{\%} (4.6{\%} absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement)."},
+  doi = {10.18653/v1/N19-1423},
+  series = {}
+}
+
+@article{DBLP:journals/corr/abs-2005-14165,
+  author = {Tom B. Brown and
+                  Benjamin Mann and
+                  Nick Ryder and
+                  Melanie Subbiah and
+                  Jared Kaplan and
+                  Prafulla Dhariwal and
+                  Arvind Neelakantan and
+                  Pranav Shyam and
+                  Girish Sastry and
+                  Amanda Askell and
+                  Sandhini Agarwal and
+                  Ariel Herbert{-}Voss and
+                  Gretchen Krueger and
+                  Tom Henighan and
+                  Rewon Child and
+                  Aditya Ramesh and
+                  Daniel M. Ziegler and
+                  Jeffrey Wu and
+                  Clemens Winter and
+                  Christopher Hesse and
+                  Mark Chen and
+                  Eric Sigler and
+                  Mateusz Litwin and
+                  Scott Gray and
+                  Benjamin Chess and
+                  Jack Clark and
+                  Christopher Berner and
+                  Sam McCandlish and
+                  Alec Radford and
+                  Ilya Sutskever and
+                  Dario Amodei},
+  title = {Language Models are Few-Shot Learners},
+  journal = {CoRR},
+  volume = {abs/2005.14165},
+  year = {2020},
+  url = {https://arxiv.org/abs/2005.14165},
+  eprinttype = {arXiv},
+  eprint = {2005.14165},
+  timestamp = {Wed, 03 Jun 2020 11:36:54 +0200},
+  biburl = {https://dblp.org/rec/journals/corr/abs-2005-14165.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples. By contrast, humans can generally perform a new language task from only a few examples or from simple instructions - something which current NLP systems still largely struggle to do. Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic. At the same time, we also identify some datasets where GPT-3's few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora. Finally, we find that GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans. We discuss broader societal impacts of this finding and of GPT-3 in general.
+},
+  doi = {https://doi.org/10.48550/arXiv.2005.14165},
+  series = {}
+}
+
+@misc{glaese2022improving,
+  title = {Improving alignment of dialogue agents via targeted human judgements},
+  author = {Amelia Glaese and Nat McAleese and Maja Trębacz and John Aslanides and Vlad Firoiu and Timo Ewalds and Maribeth Rauh and Laura Weidinger and Martin Chadwick and Phoebe Thacker and Lucy Campbell-Gillingham and Jonathan Uesato and Po-Sen Huang and Ramona Comanescu and Fan Yang and Abigail See and Sumanth Dathathri and Rory Greig and Charlie Chen and Doug Fritz and Jaume Sanchez Elias and Richard Green and Soňa Mokrá and Nicholas Fernando and Boxi Wu and Rachel Foley and Susannah Young and Iason Gabriel and William Isaac and John Mellor and Demis Hassabis and Koray Kavukcuoglu and Lisa Anne Hendricks and Geoffrey Irving},
+  year = {2022},
+  eprint = {2209.14375},
+  archiveprefix = {arXiv},
+  primaryclass = {cs.LG},
+  abstract = {We present Sparrow, an information-seeking dialogue agent trained to be more helpful, correct, and harmless compared to prompted language model baselines. We use reinforcement learning from human feedback to train our models with two new additions to help human raters judge agent behaviour. First, to make our agent more helpful and harmless, we break down the requirements for good dialogue into natural language rules the agent should follow, and ask raters about each rule separately. We demonstrate that this breakdown enables us to collect more targeted human judgements of agent behaviour and allows for more efficient rule-conditional reward models. Second, our agent provides evidence from sources supporting factual claims when collecting preference judgements over model statements. For factual questions, evidence provided by Sparrow supports the sampled response 78 percent of the time. Sparrow is preferred more often than baselines while being more resilient to adversarial probing by humans, violating our rules only 8 percent of the time when probed. Finally, we conduct extensive analyses showing that though our model learns to follow our rules it can exhibit distributional biases.},
+  doi = {https://doi.org/10.48550/arXiv.2209.14375
+},
+  series = {}
+}
+
+@inproceedings{Knox2009InteractivelySA,
+  title = {Interactively shaping agents via human reinforcement: the TAMER framework},
+  author = {W. B. Knox and Peter Stone},
+  booktitle = {International Conference on Knowledge Capture},
+  year = {2009},
+  abstract = {As computational learning agents move into domains that incur real costs (e.g., autonomous driving or financial investment), it will be necessary to learn good policies without numerous high-cost learning trials. One promising approach to reducing sample complexity of learning a task is knowledge transfer from humans to agents. Ideally, methods of transfer should be accessible to anyone with task knowledge, regardless of that person's expertise in programming and AI. This paper focuses on allowing a human trainer to interactively shape an agent's policy via reinforcement signals. Specifically, the paper introduces "Training an Agent Manually via Evaluative Reinforcement," or TAMER, a framework that enables such shaping. Differing from previous approaches to interactive shaping, a TAMER agent models the human's reinforcement and exploits its model by choosing actions expected to be most highly reinforced. Results from two domains demonstrate that lay users can train TAMER agents without defining an environmental reward function (as in an MDP) and indicate that human training within the TAMER framework can reduce sample complexity over autonomous learning algorithms.},
+  doi = {10.1145/1555816.1555832},
+  series = {}
+}
+
+@misc{ouyang2022training,
+  title = {Training language models to follow instructions with human feedback},
+  author = {Long Ouyang and Jeff Wu and Xu Jiang and Diogo Almeida and Carroll L. Wainwright and Pamela Mishkin and Chong Zhang and Sandhini Agarwal and Katarina Slama and Alex Ray and John Schulman and Jacob Hilton and Fraser Kelton and Luke Miller and Maddie Simens and Amanda Askell and Peter Welinder and Paul Christiano and Jan Leike and Ryan Lowe},
+  year = {2022},
+  eprint = {2203.02155},
+  archiveprefix = {arXiv},
+  primaryclass = {cs.CL},
+  abstract = {Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that are untruthful, toxic, or simply not helpful to the user. In other words, these models are not aligned with their users. In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback. Starting with a set of labeler-written prompts and prompts submitted through the OpenAI API, we collect a dataset of labeler demonstrations of the desired model behavior, which we use to fine-tune GPT-3 using supervised learning. We then collect a dataset of rankings of model outputs, which we use to further fine-tune this supervised model using reinforcement learning from human feedback. We call the resulting models InstructGPT. In human evaluations on our prompt distribution, outputs from the 1.3B parameter InstructGPT model are preferred to outputs from the 175B GPT-3, despite having 100x fewer parameters. Moreover, InstructGPT models show improvements in truthfulness and reductions in toxic output generation while having minimal performance regressions on public NLP datasets. Even though InstructGPT still makes simple mistakes, our results show that fine-tuning with human feedback is a promising direction for aligning language models with human intent.},
+  doi = {https://doi.org/10.48550/arXiv.2203.02155
+},
+  series = {}
+}
+
+@inproceedings{Radford2018ImprovingLU,
+  title = {Improving Language Understanding by Generative Pre-Training},
+  author = {Alec Radford and Karthik Narasimhan},
+  year = {2018},
+  abstract = {Natural language understanding comprises a wide range of diverse tasks such as textual entailment, question answering, semantic similarity assessment, and document classiﬁcation. Although large unlabeled text corpora are abundant, labeled data for learning these speciﬁc tasks is scarce, making it challenging for discriminatively trained models to perform adequately. We demonstrate that large gains on these tasks can be realized by generative pre-training of a language model on a diverse corpus of unlabeled text, followed by discriminative ﬁne-tuning on each speciﬁc task. In contrast to previous approaches, we make use of task-aware input transformations during ﬁne-tuning to achieve effective transfer while requiring minimal changes to the model architecture. We demonstrate the effectiveness of our approach on a wide range of benchmarks for natural language understanding. Our general task-agnostic model outperforms discriminatively trained models that use architectures speciﬁcally crafted for each task, signiﬁcantly improving upon the state of the art in 9 out of the 12 tasks studied. For instance, we achieve absolute improvements of 8.9% on commonsense reasoning (Stories Cloze Test), 5.7% on question answering (RACE), and 1.5% on textual entailment (MultiNLI)
+},
+  doi = {10.1109/ICLR.2019.9025970},
+  series = {}
+}
+
+@misc{schulman2017proximal,
+  title = {Proximal Policy Optimization Algorithms},
+  author = {John Schulman and Filip Wolski and Prafulla Dhariwal and Alec Radford and Oleg Klimov},
+  year = {2017},
+  eprint = {1707.06347},
+  archiveprefix = {arXiv},
+  primaryclass = {cs.LG},
+  abstract = {We propose a new family of policy gradient methods for reinforcement learning, which alternate between sampling data through interaction with the environment, and optimizing a "surrogate" objective function using stochastic gradient ascent. Whereas standard policy gradient methods perform one gradient update per data sample, we propose a novel objective function that enables multiple epochs of minibatch updates. The new methods, which we call proximal policy optimization (PPO), have some of the benefits of trust region policy optimization (TRPO), but they are much simpler to implement, more general, and have better sample complexity (empirically). Our experiments test PPO on a collection of benchmark tasks, including simulated robotic locomotion and Atari game playing, and we show that PPO outperforms other online policy gradient methods, and overall strikes a favorable balance between sample complexity, simplicity, and wall-time.},
+  doi = {https://doi.org/10.48550/arXiv.1707.06347},
+  series = {}
+}
+
+@article{thomaz2006augmenting,
+  title = {Augmenting reinforcement learning with human feedback},
+  author = {Thomaz, Andrea L and Breazeal, Cynthia},
+  journal = {International Journal of Humanoid Robotics},
+  volume = {3},
+  number = {03},
+  pages = {537--556},
+  year = {2006},
+  publisher = {World Scientific},
+  abstract = {As computational agents are increasingly used beyond research labs, their success will depend on their ability to learn new skills and adapt to their dynamic, complex environments. If hu-man users — without programming skills — can transfer their task knowledge to agents, learn-ing can accelerate dramatically, reducing costly trials. The TAMER framework guides the de-sign of agents whose behavior can be shaped through signals of approval and disapproval, a natural form of human feedback. More recently, TAMER+RL was introduced to enable human feedback to augment a traditional reinforcement learning (RL) agent that learns from a Markov decision process's (MDP) reward signal. Using a reimplementation of TAMER and TAMER+RL, we address limitations of prior work, contributing in two critical directions. First, the four successful techniques for combining a human reinforcement with RL from prior TAMER+RL work are tested on a second task, and these techniques' sensitivi-ties to parameter changes are analyzed. Together, these examinations yield more general and pre-scriptive conclusions to guide others who wish to incorporate human knowledge into an RL al-gorithm. Second, TAMER+RL has thus far been limited to a sequential setting, in which training occurs before learning from MDP reward. We modify the sequential algorithms to learn simul-taneously from both sources, enabling the human feedback to come at any time during the rein-forcement learning process. To enable simulta-neous learning, we introduce a new technique that appropriately determines the magnitude of the human model's influence on the RL algo-rithm throughout time and state-action space. },
+  doi = {10.1142/S0219843606000864},
+  series = {}
+}
+
